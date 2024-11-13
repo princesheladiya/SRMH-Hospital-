@@ -1,0 +1,96 @@
+@media (min-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
+  .navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  .navbar-nav {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 526px) {
+  body {
+    overflow-x: hidden;
+  }
+  #our-team-section .slick-prev {
+    left: 28px;
+    z-index: 1;
+    padding: 0;
+  }
+  #our-team-section .slick-next {
+    right: 52px;
+    padding: 0;
+  }
+  #our-team-section .team-member-wrapper {
+    margin: 12px 0px;
+  }
+  #about-us-section .hospital-images-slider-wrapper .hospital-slider-wrapper .slick-next {
+    right: -10px;
+  }
+  #about-us-section .hospital-images-slider-wrapper .hospital-slider-wrapper .slick-prev {
+    left: 102px;
+    z-index: 1111;
+  }
+  #about-us-section .hospital-images-slider-wrapper .hospital-slider-wrapper .image-wrapper {
+    margin: 0 28px;
+  }
+  #header nav ul li .nav-link::before {
+    bottom: 0;
+  }
+  #header.sticky nav ul li.active .nav-link::before {
+    bottom: 0;
+  }
+  #gallery-section .gallery-slider .gallery-image-wrapper {
+    margin: 0 0;
+  }
+  #gallery-section .gallery-slider .slick-next {
+    right: 25px;
+  }
+  #gallery-section .gallery-slider .slick-prev {
+    left: 2px;
+  }
+  #header nav ul li.active .nav-link::before {
+    bottom: 0;
+  }
+  #camp-section .camp-wrapper .camp-images-slider-wrapper .camp-slider-wrapper .slick-next {
+    left: 0;
+  }
+  #camp-section .camp-wrapper .camp-images-slider-wrapper .camp-slider-wrapper .slick-prev {
+    left: 100px;
+  }
+  #our-team-section .slick-next {
+    right: 25px;
+  }
+  #our-team-section .slick-prev {
+    left: 2px;
+  }
+  #testimonials-section .testimonial-wrapper {
+    margin: 42px 0 0;
+  }
+  #testimonials-section .slick-next {
+    right: 25px;
+  }
+  #testimonials-section .slick-prev {
+    left: 2px;
+  }
+  #top-header .quick-contact-wrapper a {
+    font-size: 14px;
+  }
+  #top-header .quick-contact-wrapper a img {
+    width: 22px;
+  }
+  #hospital-certificates-section .logo-wrapper .image img {
+    width: 90px;
+  }
+  #about-us-section .heading-description p {
+    text-align: justify;
+  }
+  #contact-us-section .heading-description p {
+    text-align: justify;
+  }
+  #contact-us-section .contact-info-wrapper a {
+    width: 100%;
+  }
+}/*# sourceMappingURL=responsive.css.map */
